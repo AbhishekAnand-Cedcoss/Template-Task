@@ -51,6 +51,7 @@ if ( ! function_exists( 'my2task_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'my2task' ),
+				'menu-2' => esc_html__('Secondary', 'my2task'),
 			)
 		);
 
