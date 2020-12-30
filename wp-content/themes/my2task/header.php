@@ -13,11 +13,11 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<?php wp_head(); ?>
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -25,38 +25,33 @@
 <div id="page" class="site">
 <!-- ***** Preloader Start ***** -->
 <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
-    <!-- ***** Preloader End ***** -->
-    <header class="">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="<?php echo esc_url(home_url("/"));?>"><h2><?php bloginfo('name');?><em>.</em></h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-         
+	<div class="jumper">
+	<div></div>
+	<div></div>
+	<div></div>
+	</div>
+</div>  
+<!-- ***** Preloader End ***** -->
+<header class="">
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?> "> <h2><?php bloginfo( 'name' ); ?><em>.</em></h2></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				 
 			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-                    'menu_id'        => 'primary-menu',
-                    'menu_class'     => 'navbar-nav ml-auto',
-                    'container'      => 'ul'
-				)
-			);
-			?>
-		
-            
-          </div>
-        </div>
-      </nav>
-    </header>
-	
-
-	
+				wp_nav_menu(
+					array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+						'menu_class'     => 'navbar-nav ml-auto',
+						'container'      => 'ul',
+					)
+				);
+				?>
+			</div>
+		</div>
+	</nav>
+</header>

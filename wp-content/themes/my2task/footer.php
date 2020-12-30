@@ -28,7 +28,7 @@
             <div class="copyright-text">
               <p>Copyright 2020 Stand Blog Co.
                     
-                 | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a></p>
+                 | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">AbhishekAnand@Cedcoss</a></p>
             </div>
           </div>
         </div>
